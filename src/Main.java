@@ -50,12 +50,12 @@ public class Main {
         gerenciador.getDescritor().imprimirQuantidadeSalariosMinimos(new BigDecimal("1212.00"));
 
         /*
-        Considerações: Por se tratar de um exemplo toy, fizemos todos os salvamentos em memória, isto é, sem uso de disco,
-        mas caso fosse uma implementação real, a ideia é que teríamos de fazer um mapeamento relacional ORM, a fim de mapear
-        nossos modelos para um banco de dados relacional, como um PostgreSQL ou um SQLlite. Tentei manter as classes bem
-        dividas e com responsabilidades únicas. Evitei deixar uma classe gigante também, que seria responsavel por executar
-        todas as operacoes requeridas pelo enunciado. E por fim, tentei manter as coisas expansíveis e modulares sem necessidade
-        de mudança, entretanto num exemplo toy com casos bem definidos e específicos, que não tem perspectiva de crescimento, isto
+        Considerações: Por se tratar de um exemplo toy, fiz todos os salvamentos em memória, isto é, sem uso de disco,
+        mas caso fosse uma implementação real, a ideia é que teria de fazer um mapeamento relacional ORM, a fim de mapear
+        nossos modelos para um banco de dados relacional (JPA ajuda muito nessas horas). Tentei manter as classes bem
+        dividas e com responsabilidades únicas. Evitei deixar uma classe massiva também, que seria responsavel por executar
+        todas as operações requeridas pelo enunciado. E por fim, tentei manter as coisas expansíveis e modulares sem necessidade
+        de mudança, entretanto num exemplo toy com casos bem definidos e específicos como este, que não tem perspectiva de crescimento, isto
         acaba sendo um pouco difícil, enfim, acho que é isto, obrigado pela atenção, espero poder trabalhar com vocês logo :D
          */
     }
